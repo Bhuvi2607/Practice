@@ -1,0 +1,71 @@
+Exercise : Choice of app in a random fashion : 
+
+A. Create HLD for an application like Zomato with 5 features
+
+
+High-Level Design for Zomato App:
+
+
+1. User Authentication and Profile Management:
+
+•	Users interact with the UI for registration and login.
+•	Authentication Service verifies credentials and issues authentication tokens.
+•	Profile Management Service handles user profile information.
+•	User Database stores user profiles and authentication data.
+
+Trivial or Novel:
+•	Trivial: Standard user authentication practices are implemented.
+•	Small: Basic user profile management features are included.
+
+Explanation: Basic user authentication and profile management are standard in most applications, making them trivial and small in terms of impact.
+
+2. Restaurant and Menu Service:
+
+•	Users interact with the UI to browse restaurants and menus.
+•	Restaurant and Menu Service fetches information from the Restaurant Database.
+•	External APIs provide additional data, such as maps or restaurant images.
+
+Trivial or Novel:
+•	Trivial: Standard restaurant and menu services are implemented.
+•	Small: Basic restaurant and menu features are provided.
+
+Explanation: The basic features of restaurant and menu services are common in food delivery applications, making them trivial and small in impact.
+
+3. Ordering and Checkout:
+
+•	Users use the UI to add items to the cart and proceed to checkout.
+•	Ordering and Checkout Service manages the order process.
+•	Shopping Cart System allows users to review and modify their orders.
+•	Order Database stores order information and status.
+•	Payment Gateway handles secure transactions.
+
+Trivial or Novel:
+•	Trivial: Standard ordering and checkout processes are implemented.
+•	Small: Basic shopping cart and payment features are provided.
+
+Explanation: Ordering and checkout features are routine in e-commerce and food delivery apps, making them trivial and small in impact.
+
+4. Rating and Review System:
+
+•	Users interact with the UI to leave ratings and reviews.
+•	Rating and Review Service manages the submission and retrieval of reviews.
+•	Review Database stores user reviews and ratings.
+
+Trivial or Novel:
+•	Trivial: Standard rating and review systems are implemented.
+•	Small: Basic features for submitting and retrieving reviews are provided.
+
+Explanation: Basic implementations of rating and review systems are common, making them trivial and small in impact.
+
+5. Real-time Tracking and Notifications:
+
+•	Users can track the real-time status of their orders through the UI.
+•	Order Tracking Service provides real-time updates.
+•	Notification Service sends push notifications for order updates.
+
+Trivial or Novel:
+•	Trivial: Standard real-time tracking and notifications are implemented.
+•	Small: Basic features for order tracking and notifications are provided.
+
+Explanation: Real-time tracking and notifications are common features in delivery applications, making them trivial and small in impact.
+
